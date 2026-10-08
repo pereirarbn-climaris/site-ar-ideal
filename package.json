@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack && cp public/.htaccess out/.htaccess",
+    "build": "next build --webpack && cp -r public/* out/",
     "start": "next start",
     "lint": "eslint ."
   },
